@@ -1,0 +1,19 @@
+.navbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 2rem;
+	background-color: black;
+	color: white;
+	font-size: x-large;
+	a {
+		text-decoration: none;
+	}
+	a:hover {
+		text-decoration: underline;
+		text-decoration-color: red;
+	}
+	a:visited {
+		color: inherit;
+	}
+}

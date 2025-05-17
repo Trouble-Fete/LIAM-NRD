@@ -1,0 +1,23 @@
+.pageBiographie {
+	background-color: black;
+	color: white;
+	padding-top: 4rem;
+	.biographie {
+		display: flex;
+		flex-direction: column;
+		width: 60%;
+		margin: 4rem auto;
+	}
+	.diplome {
+		display: flex;
+		flex-direction: column;
+		width: 30%;
+		margin: 4rem auto;
+		align-items: center;
+		text-align: center;
+		justify-content: center;
+		.diplomeTitre {
+			text-align: center;
+		}
+	}
+}
